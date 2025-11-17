@@ -4,7 +4,6 @@ import Swiper from 'swiper/bundle';
 class Main {
   constructor() {
     this.init();
-    this.swipercard();
   }
 
   init() {
