@@ -1,0 +1,26 @@
+.section_orange {
+    background-color: var(--color-primary);
+    padding: 80px 0;
+    color: var(--color-black);
+
+    h2 span {
+        font-size: var(--font-size-h2);
+    }
+
+    span {
+        color: var(--color-black);
+    }
+}
+
+.section {
+    padding: 80px 0;
+
+    h2 span {
+        font-size: var(--font-size-h2);
+    }
+}
+
+.tag {
+    font-size: #{typo(18px)};
+    font-weight: 300;
+}

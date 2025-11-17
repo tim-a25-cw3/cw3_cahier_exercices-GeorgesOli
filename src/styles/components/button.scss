@@ -1,0 +1,23 @@
+.button {
+    background-color: var(--color-primary);
+    padding: 16px 10px;
+    color: var(--color-black);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+
+    font-weight: 700;
+    font-size: #{typo(16px)};
+
+    &:hover {
+        background-color: var(--color-black);
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+}
+
+.btn-white {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
