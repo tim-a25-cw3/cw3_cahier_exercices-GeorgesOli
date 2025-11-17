@@ -9,17 +9,18 @@ class Main {
 
   init() {
     Icons.load();
-    Swiper.load();
+    this.initSwiperPagination();
   }
 
-  swipercard() {
-    const swiper = new Swiper('.swiper', {
-      loop: true,
-
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
+  initSwiperPagination() {
+    const target = document.querySelector('.swiper');
+    if (target) {
+      const swiper = new Swiper(target, {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    }
   }
 }
 new Main();
